@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Daily Test" time="221.604" tests="6" failures="0" errors="0">
+   <testsuite name="Daily Test" tests="6" failures="0" errors="0" time="221.604" skipped="0" timestamp="2022-10-04 12:33:25" hostname="ulina - rup" id="Test Suites/Daily Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ulina\\Katalon Studio\\Belajar-Katalon.git\\Reports\\20221004_123256\\Daily Test\\20221004_123256"/>
+         <property name="logFiles" value="C:\\Users\\ulina\\Katalon Studio\\Belajar-Katalon.git\\Reports\\20221004_123256\\Daily Test\\20221004_123256\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ulina - rup"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.1.208"/>
+         <property name="browser" value="Chrome 105.0.0.0"/>
+         <property name="hostAddress" value="10.10.20.20"/>
+         <property name="sessionId" value="bc42cfc050be53d7a3359de60807a8eb"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/student could login" time="135.949" classname="Test Cases/student could login" status="PASSED">
+         <system-out><![CDATA[2022-10-04 12:33:26 - [TEST_CASE][PASSED] - Test Cases/student could login: Test Cases/student could login
+
+2022-10-04 12:33:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-10-04 12:33:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-04 12:33:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-04 12:33:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-10-04 12:33:29 - [TEST_STEP][PASSED] - navigateToUrl("https://akademik.polban.ac.id/"): Navigate to 'https://akademik.polban.ac.id/' successfully
+
+2022-10-04 12:34:03 - [MESSAGE][PASSED] - Navigate to 'https://akademik.polban.ac.id/' successfully
+
+2022-10-04 12:34:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Mahasiswa  Log in/h2_PANDUAN LOGIN APLIKASI AKADEMIK"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/h2_PANDUAN LOGIN APLIKASI AKADEMIK' is present
+
+2022-10-04 12:34:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:34:04 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/h2_PANDUAN LOGIN APLIKASI AKADEMIK' is present
+
+2022-10-04 12:34:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Mahasiswa  Log in/h2_JADWAL KEGIATAN"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/h2_JADWAL KEGIATAN' is present
+
+2022-10-04 12:34:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:34:04 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/h2_JADWAL KEGIATAN' is present
+
+2022-10-04 12:34:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Mahasiswa  Log in/img"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/img' is present
+
+2022-10-04 12:34:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:34:04 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/img' is present
+
+2022-10-04 12:34:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Mahasiswa  Log in/p_Mahasiswa - Sign in to start your session"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/p_Mahasiswa - Sign in to start your session' is present
+
+2022-10-04 12:34:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:34:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/p_Mahasiswa - Sign in to start your session' is present
+
+2022-10-04 12:34:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Mahasiswa  Log in/button_Sign In"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/button_Sign In' is present
+
+2022-10-04 12:34:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:34:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/button_Sign In' is present
+
+2022-10-04 12:34:05 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Page_Mahasiswa  Log in/input_Pengesahan KRS_username"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/input_Pengesahan KRS_username' is clickable
+
+2022-10-04 12:34:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:34:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/input_Pengesahan KRS_username' is clickable
+
+2022-10-04 12:34:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mahasiswa  Log in/input_Pengesahan KRS_username"), "181524030"): Text '181524030' is set on object 'Object Repository/Page_Mahasiswa  Log in/input_Pengesahan KRS_username'
+
+2022-10-04 12:34:06 - [MESSAGE][PASSED] - Text '181524030' is set on object 'Object Repository/Page_Mahasiswa  Log in/input_Pengesahan KRS_username'
+
+2022-10-04 12:34:06 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Page_Mahasiswa  Log in/input_Pengesahan KRS_password"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/input_Pengesahan KRS_password' is clickable
+
+2022-10-04 12:34:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:34:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/input_Pengesahan KRS_password' is clickable
+
+2022-10-04 12:34:07 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Mahasiswa  Log in/input_Pengesahan KRS_password"), "U+lnIAN/gKSlHcaxcMBafg=="): Text ****** has been set on object 'Object Repository/Page_Mahasiswa  Log in/input_Pengesahan KRS_password'
+
+2022-10-04 12:34:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Mahasiswa  Log in/input_Pengesahan KRS_password'
+
+2022-10-04 12:34:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mahasiswa  Log in/button_Sign In")): Object: 'Object Repository/Page_Mahasiswa  Log in/button_Sign In' is clicked on
+
+2022-10-04 12:34:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mahasiswa  Log in/button_Sign In' is clicked on
+
+2022-10-04 12:34:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Dashboard Mahasiswa/h1_Dashboard Mahasiswa"), 0): Object 'Object Repository/Page_Dashboard Mahasiswa/h1_Dashboard Mahasiswa' is present
+
+2022-10-04 12:34:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:35:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Dashboard Mahasiswa/h1_Dashboard Mahasiswa' is present
+
+2022-10-04 12:35:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Dashboard Mahasiswa/img_Toggle navigation_user-image"), 0): Object 'Object Repository/Page_Dashboard Mahasiswa/img_Toggle navigation_user-image' is present
+
+2022-10-04 12:35:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:35:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Dashboard Mahasiswa/img_Toggle navigation_user-image' is present
+
+2022-10-04 12:35:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Dashboard Mahasiswa/span_ROMA ULINA PASARIBU"), 0): Object 'Object Repository/Page_Dashboard Mahasiswa/span_ROMA ULINA PASARIBU' is present
+
+2022-10-04 12:35:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:35:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Dashboard Mahasiswa/span_ROMA ULINA PASARIBU' is present
+
+2022-10-04 12:35:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-10-04 12:35:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/student could not reset password because filled a not valid email" time="10.558" classname="Test Cases/student could not reset password because filled a not valid email" status="PASSED">
+         <system-out><![CDATA[2022-10-04 12:35:42 - [TEST_CASE][PASSED] - Test Cases/student could not reset password because filled a not valid email: Test Cases/student could not reset password because filled a not valid email
+
+2022-10-04 12:35:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-10-04 12:35:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-04 12:35:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-04 12:35:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-10-04 12:35:44 - [TEST_STEP][PASSED] - navigateToUrl("https://akademik.polban.ac.id/"): Navigate to 'https://akademik.polban.ac.id/' successfully
+
+2022-10-04 12:35:46 - [MESSAGE][PASSED] - Navigate to 'https://akademik.polban.ac.id/' successfully
+
+2022-10-04 12:35:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Mahasiswa  Log in/h2_PANDUAN LOGIN APLIKASI AKADEMIK"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/h2_PANDUAN LOGIN APLIKASI AKADEMIK' is present
+
+2022-10-04 12:35:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:35:46 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/h2_PANDUAN LOGIN APLIKASI AKADEMIK' is present
+
+2022-10-04 12:35:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Mahasiswa  Log in/h2_JADWAL KEGIATAN"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/h2_JADWAL KEGIATAN' is present
+
+2022-10-04 12:35:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:35:46 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/h2_JADWAL KEGIATAN' is present
+
+2022-10-04 12:35:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Mahasiswa  Log in/img"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/img' is present
+
+2022-10-04 12:35:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:35:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/img' is present
+
+2022-10-04 12:35:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Mahasiswa  Log in/p_Mahasiswa - Sign in to start your session"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/p_Mahasiswa - Sign in to start your session' is present
+
+2022-10-04 12:35:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:35:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/p_Mahasiswa - Sign in to start your session' is present
+
+2022-10-04 12:35:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Mahasiswa  Log in/a_I forgot my password"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/a_I forgot my password' is present
+
+2022-10-04 12:35:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:35:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/a_I forgot my password' is present
+
+2022-10-04 12:35:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Mahasiswa  Log in/button_Sign In"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/button_Sign In' is present
+
+2022-10-04 12:35:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:35:48 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/button_Sign In' is present
+
+2022-10-04 12:35:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mahasiswa  Log in/a_I forgot my password")): Object: 'Object Repository/Page_Mahasiswa  Log in/a_I forgot my password' is clicked on
+
+2022-10-04 12:35:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mahasiswa  Log in/a_I forgot my password' is clicked on
+
+2022-10-04 12:35:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Mahasiswa  Log in/img"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/img' is present
+
+2022-10-04 12:35:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:35:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/img' is present
+
+2022-10-04 12:35:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Mahasiswa  Log in/h1_Forgot Password"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/h1_Forgot Password' is present
+
+2022-10-04 12:35:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:35:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/h1_Forgot Password' is present
+
+2022-10-04 12:35:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Mahasiswa  Log in/p_Please enter your Email so we can send yo_91eab7"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/p_Please enter your Email so we can send yo_91eab7' is present
+
+2022-10-04 12:35:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:35:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/p_Please enter your Email so we can send yo_91eab7' is present
+
+2022-10-04 12:35:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Mahasiswa  Log in/label_Email"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/label_Email' is present
+
+2022-10-04 12:35:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:35:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/label_Email' is present
+
+2022-10-04 12:35:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Mahasiswa  Log in/input_Email_submit"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/input_Email_submit' is present
+
+2022-10-04 12:35:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:35:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/input_Email_submit' is present
+
+2022-10-04 12:35:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mahasiswa  Log in/input_Email_email"), "roma.ulina.tif418"): Text 'roma.ulina.tif418' is set on object 'Object Repository/Page_Mahasiswa  Log in/input_Email_email'
+
+2022-10-04 12:35:51 - [MESSAGE][PASSED] - Text 'roma.ulina.tif418' is set on object 'Object Repository/Page_Mahasiswa  Log in/input_Email_email'
+
+2022-10-04 12:35:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mahasiswa  Log in/input_Email_submit"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Mahasiswa  Log in/input_Email_submit' is clicked on
+
+2022-10-04 12:35:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mahasiswa  Log in/input_Email_submit' is clicked on
+
+2022-10-04 12:35:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Mahasiswa  Log in/p_The Email Address field must contain a va_4349c4"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/p_The Email Address field must contain a va_4349c4' is present
+
+2022-10-04 12:35:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:35:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/p_The Email Address field must contain a va_4349c4' is present
+
+2022-10-04 12:35:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-10-04 12:35:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/student could not reset password because the emails field is not filled" time="9.241" classname="Test Cases/student could not reset password because the emails field is not filled" status="PASSED">
+         <system-out><![CDATA[2022-10-04 12:35:52 - [TEST_CASE][PASSED] - Test Cases/student could not reset password because the emails field is not filled: Test Cases/student could not reset password because the emails field is not filled
+
+2022-10-04 12:35:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-10-04 12:35:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-04 12:35:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-04 12:35:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-10-04 12:35:54 - [TEST_STEP][PASSED] - navigateToUrl("https://akademik.polban.ac.id/"): Navigate to 'https://akademik.polban.ac.id/' successfully
+
+2022-10-04 12:35:55 - [MESSAGE][PASSED] - Navigate to 'https://akademik.polban.ac.id/' successfully
+
+2022-10-04 12:35:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Mahasiswa  Log in/h2_PANDUAN LOGIN APLIKASI AKADEMIK"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/h2_PANDUAN LOGIN APLIKASI AKADEMIK' is present
+
+2022-10-04 12:35:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:35:55 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/h2_PANDUAN LOGIN APLIKASI AKADEMIK' is present
+
+2022-10-04 12:35:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Mahasiswa  Log in/h2_JADWAL KEGIATAN"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/h2_JADWAL KEGIATAN' is present
+
+2022-10-04 12:35:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:35:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/h2_JADWAL KEGIATAN' is present
+
+2022-10-04 12:35:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Mahasiswa  Log in/img"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/img' is present
+
+2022-10-04 12:35:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:35:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/img' is present
+
+2022-10-04 12:35:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Mahasiswa  Log in/p_Mahasiswa - Sign in to start your session"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/p_Mahasiswa - Sign in to start your session' is present
+
+2022-10-04 12:35:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:35:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/p_Mahasiswa - Sign in to start your session' is present
+
+2022-10-04 12:35:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Mahasiswa  Log in/a_I forgot my password"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/a_I forgot my password' is present
+
+2022-10-04 12:35:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:35:57 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/a_I forgot my password' is present
+
+2022-10-04 12:35:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Mahasiswa  Log in/button_Sign In"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/button_Sign In' is present
+
+2022-10-04 12:35:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:35:57 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/button_Sign In' is present
+
+2022-10-04 12:35:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mahasiswa  Log in/a_I forgot my password")): Object: 'Object Repository/Page_Mahasiswa  Log in/a_I forgot my password' is clicked on
+
+2022-10-04 12:35:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mahasiswa  Log in/a_I forgot my password' is clicked on
+
+2022-10-04 12:35:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Mahasiswa  Log in/img"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/img' is present
+
+2022-10-04 12:35:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:35:58 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/img' is present
+
+2022-10-04 12:35:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Mahasiswa  Log in/h1_Forgot Password"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/h1_Forgot Password' is present
+
+2022-10-04 12:35:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:35:58 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/h1_Forgot Password' is present
+
+2022-10-04 12:35:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Mahasiswa  Log in/p_Please enter your Email so we can send yo_91eab7"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/p_Please enter your Email so we can send yo_91eab7' is present
+
+2022-10-04 12:35:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:35:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/p_Please enter your Email so we can send yo_91eab7' is present
+
+2022-10-04 12:35:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Mahasiswa  Log in/label_Email"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/label_Email' is present
+
+2022-10-04 12:35:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:35:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/label_Email' is present
+
+2022-10-04 12:35:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Mahasiswa  Log in/input_Email_submit"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/input_Email_submit' is present
+
+2022-10-04 12:35:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:35:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/input_Email_submit' is present
+
+2022-10-04 12:35:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mahasiswa  Log in/input_Email_email"), ""): Text '' is set on object 'Object Repository/Page_Mahasiswa  Log in/input_Email_email'
+
+2022-10-04 12:36:00 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Mahasiswa  Log in/input_Email_email'
+
+2022-10-04 12:36:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mahasiswa  Log in/input_Email_submit"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Mahasiswa  Log in/input_Email_submit' is clicked on
+
+2022-10-04 12:36:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mahasiswa  Log in/input_Email_submit' is clicked on
+
+2022-10-04 12:36:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Mahasiswa  Log in/p_The Email Address field is required"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/p_The Email Address field is required' is present
+
+2022-10-04 12:36:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:36:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/p_The Email Address field is required' is present
+
+2022-10-04 12:36:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-10-04 12:36:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/student could reset password" time="14.488" classname="Test Cases/student could reset password" status="PASSED">
+         <system-out><![CDATA[2022-10-04 12:36:01 - [TEST_CASE][PASSED] - Test Cases/student could reset password: Test Cases/student could reset password
+
+2022-10-04 12:36:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-10-04 12:36:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-04 12:36:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-04 12:36:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-10-04 12:36:03 - [TEST_STEP][PASSED] - navigateToUrl("https://akademik.polban.ac.id/"): Navigate to 'https://akademik.polban.ac.id/' successfully
+
+2022-10-04 12:36:05 - [MESSAGE][PASSED] - Navigate to 'https://akademik.polban.ac.id/' successfully
+
+2022-10-04 12:36:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Mahasiswa  Log in/h2_PANDUAN LOGIN APLIKASI AKADEMIK"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/h2_PANDUAN LOGIN APLIKASI AKADEMIK' is present
+
+2022-10-04 12:36:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:36:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/h2_PANDUAN LOGIN APLIKASI AKADEMIK' is present
+
+2022-10-04 12:36:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Mahasiswa  Log in/h2_JADWAL KEGIATAN"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/h2_JADWAL KEGIATAN' is present
+
+2022-10-04 12:36:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:36:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/h2_JADWAL KEGIATAN' is present
+
+2022-10-04 12:36:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Mahasiswa  Log in/img"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/img' is present
+
+2022-10-04 12:36:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:36:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/img' is present
+
+2022-10-04 12:36:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Mahasiswa  Log in/p_Mahasiswa - Sign in to start your session"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/p_Mahasiswa - Sign in to start your session' is present
+
+2022-10-04 12:36:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:36:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/p_Mahasiswa - Sign in to start your session' is present
+
+2022-10-04 12:36:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Mahasiswa  Log in/a_I forgot my password"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/a_I forgot my password' is present
+
+2022-10-04 12:36:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:36:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/a_I forgot my password' is present
+
+2022-10-04 12:36:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Mahasiswa  Log in/button_Sign In"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/button_Sign In' is present
+
+2022-10-04 12:36:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:36:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/button_Sign In' is present
+
+2022-10-04 12:36:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mahasiswa  Log in/a_I forgot my password")): Object: 'Object Repository/Page_Mahasiswa  Log in/a_I forgot my password' is clicked on
+
+2022-10-04 12:36:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mahasiswa  Log in/a_I forgot my password' is clicked on
+
+2022-10-04 12:36:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Mahasiswa  Log in/img"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/img' is present
+
+2022-10-04 12:36:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:36:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/img' is present
+
+2022-10-04 12:36:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Mahasiswa  Log in/h1_Forgot Password"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/h1_Forgot Password' is present
+
+2022-10-04 12:36:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:36:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/h1_Forgot Password' is present
+
+2022-10-04 12:36:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Mahasiswa  Log in/p_Please enter your Email so we can send yo_91eab7"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/p_Please enter your Email so we can send yo_91eab7' is present
+
+2022-10-04 12:36:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:36:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/p_Please enter your Email so we can send yo_91eab7' is present
+
+2022-10-04 12:36:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Mahasiswa  Log in/label_Email"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/label_Email' is present
+
+2022-10-04 12:36:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:36:09 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/label_Email' is present
+
+2022-10-04 12:36:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Mahasiswa  Log in/input_Email_submit"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/input_Email_submit' is present
+
+2022-10-04 12:36:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:36:09 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/input_Email_submit' is present
+
+2022-10-04 12:36:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mahasiswa  Log in/input_Email_email"), "roma.ulina.tif418@polban.ac.id"): Text 'roma.ulina.tif418@polban.ac.id' is set on object 'Object Repository/Page_Mahasiswa  Log in/input_Email_email'
+
+2022-10-04 12:36:10 - [MESSAGE][PASSED] - Text 'roma.ulina.tif418@polban.ac.id' is set on object 'Object Repository/Page_Mahasiswa  Log in/input_Email_email'
+
+2022-10-04 12:36:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mahasiswa  Log in/input_Email_submit"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Mahasiswa  Log in/input_Email_submit' is clicked on
+
+2022-10-04 12:36:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mahasiswa  Log in/input_Email_submit' is clicked on
+
+2022-10-04 12:36:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Mahasiswa  Log in/div_Alert                    Link Reset Pas_469a2d"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/div_Alert                    Link Reset Pas_469a2d' is present
+
+2022-10-04 12:36:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:36:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/div_Alert                    Link Reset Pas_469a2d' is present
+
+2022-10-04 12:36:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Mahasiswa  Log in/h4_Alert"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/h4_Alert' is present
+
+2022-10-04 12:36:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:36:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/h4_Alert' is present
+
+2022-10-04 12:36:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-10-04 12:36:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/student filled wrong username" time="9.574" classname="Test Cases/student filled wrong username" status="PASSED">
+         <system-out><![CDATA[2022-10-04 12:36:16 - [TEST_CASE][PASSED] - Test Cases/student filled wrong username: Test Cases/student filled wrong username
+
+2022-10-04 12:36:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-10-04 12:36:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-04 12:36:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-04 12:36:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-10-04 12:36:18 - [TEST_STEP][PASSED] - navigateToUrl("https://akademik.polban.ac.id/"): Navigate to 'https://akademik.polban.ac.id/' successfully
+
+2022-10-04 12:36:19 - [MESSAGE][PASSED] - Navigate to 'https://akademik.polban.ac.id/' successfully
+
+2022-10-04 12:36:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Mahasiswa  Log in/h2_PANDUAN LOGIN APLIKASI AKADEMIK"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/h2_PANDUAN LOGIN APLIKASI AKADEMIK' is present
+
+2022-10-04 12:36:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:36:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/h2_PANDUAN LOGIN APLIKASI AKADEMIK' is present
+
+2022-10-04 12:36:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Mahasiswa  Log in/h2_JADWAL KEGIATAN"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/h2_JADWAL KEGIATAN' is present
+
+2022-10-04 12:36:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:36:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/h2_JADWAL KEGIATAN' is present
+
+2022-10-04 12:36:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Mahasiswa  Log in/img"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/img' is present
+
+2022-10-04 12:36:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:36:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/img' is present
+
+2022-10-04 12:36:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Mahasiswa  Log in/p_Mahasiswa - Sign in to start your session"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/p_Mahasiswa - Sign in to start your session' is present
+
+2022-10-04 12:36:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:36:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/p_Mahasiswa - Sign in to start your session' is present
+
+2022-10-04 12:36:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Mahasiswa  Log in/button_Sign In"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/button_Sign In' is present
+
+2022-10-04 12:36:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:36:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/button_Sign In' is present
+
+2022-10-04 12:36:21 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Page_Mahasiswa  Log in/input_Pengesahan KRS_username"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/input_Pengesahan KRS_username' is clickable
+
+2022-10-04 12:36:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:36:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/input_Pengesahan KRS_username' is clickable
+
+2022-10-04 12:36:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mahasiswa  Log in/input_Pengesahan KRS_username"), "181524012"): Text '181524012' is set on object 'Object Repository/Page_Mahasiswa  Log in/input_Pengesahan KRS_username'
+
+2022-10-04 12:36:22 - [MESSAGE][PASSED] - Text '181524012' is set on object 'Object Repository/Page_Mahasiswa  Log in/input_Pengesahan KRS_username'
+
+2022-10-04 12:36:22 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Page_Mahasiswa  Log in/input_Pengesahan KRS_password"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/input_Pengesahan KRS_password' is clickable
+
+2022-10-04 12:36:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:36:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/input_Pengesahan KRS_password' is clickable
+
+2022-10-04 12:36:22 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Mahasiswa  Log in/input_Pengesahan KRS_password"), "iSEWCsnSE73PQQFqiZnV/Q=="): Text ****** has been set on object 'Object Repository/Page_Mahasiswa  Log in/input_Pengesahan KRS_password'
+
+2022-10-04 12:36:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Mahasiswa  Log in/input_Pengesahan KRS_password'
+
+2022-10-04 12:36:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mahasiswa  Log in/button_Sign In")): Object: 'Object Repository/Page_Mahasiswa  Log in/button_Sign In' is clicked on
+
+2022-10-04 12:36:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mahasiswa  Log in/button_Sign In' is clicked on
+
+2022-10-04 12:36:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Mahasiswa  Log in/div_Alert                    login gagal In_15140f"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/div_Alert                    login gagal In_15140f' is present
+
+2022-10-04 12:36:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:36:24 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/div_Alert                    login gagal In_15140f' is present
+
+2022-10-04 12:36:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Mahasiswa  Log in/h4_Alert"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/h4_Alert' is present
+
+2022-10-04 12:36:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:36:24 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/h4_Alert' is present
+
+2022-10-04 12:36:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Mahasiswa  Log in/p_Incorrect Login"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/p_Incorrect Login' is present
+
+2022-10-04 12:36:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:36:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/p_Incorrect Login' is present
+
+2022-10-04 12:36:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-10-04 12:36:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/student filled wrong password" time="41.293" classname="Test Cases/student filled wrong password" status="PASSED">
+         <system-out><![CDATA[2022-10-04 12:36:26 - [TEST_CASE][PASSED] - Test Cases/student filled wrong password: Test Cases/student filled wrong password
+
+2022-10-04 12:36:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-10-04 12:36:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-04 12:36:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-04 12:36:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-10-04 12:36:27 - [TEST_STEP][PASSED] - navigateToUrl("https://akademik.polban.ac.id/"): Navigate to 'https://akademik.polban.ac.id/' successfully
+
+2022-10-04 12:37:01 - [MESSAGE][PASSED] - Navigate to 'https://akademik.polban.ac.id/' successfully
+
+2022-10-04 12:37:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Mahasiswa  Log in/h2_PANDUAN LOGIN APLIKASI AKADEMIK"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/h2_PANDUAN LOGIN APLIKASI AKADEMIK' is present
+
+2022-10-04 12:37:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:37:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/h2_PANDUAN LOGIN APLIKASI AKADEMIK' is present
+
+2022-10-04 12:37:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Mahasiswa  Log in/h2_JADWAL KEGIATAN"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/h2_JADWAL KEGIATAN' is present
+
+2022-10-04 12:37:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:37:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/h2_JADWAL KEGIATAN' is present
+
+2022-10-04 12:37:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Mahasiswa  Log in/img"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/img' is present
+
+2022-10-04 12:37:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:37:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/img' is present
+
+2022-10-04 12:37:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Mahasiswa  Log in/p_Mahasiswa - Sign in to start your session"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/p_Mahasiswa - Sign in to start your session' is present
+
+2022-10-04 12:37:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:37:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/p_Mahasiswa - Sign in to start your session' is present
+
+2022-10-04 12:37:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Mahasiswa  Log in/button_Sign In"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/button_Sign In' is present
+
+2022-10-04 12:37:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:37:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/button_Sign In' is present
+
+2022-10-04 12:37:03 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Page_Mahasiswa  Log in/input_Pengesahan KRS_username"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/input_Pengesahan KRS_username' is clickable
+
+2022-10-04 12:37:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:37:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/input_Pengesahan KRS_username' is clickable
+
+2022-10-04 12:37:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mahasiswa  Log in/input_Pengesahan KRS_username"), "181524030"): Text '181524030' is set on object 'Object Repository/Page_Mahasiswa  Log in/input_Pengesahan KRS_username'
+
+2022-10-04 12:37:04 - [MESSAGE][PASSED] - Text '181524030' is set on object 'Object Repository/Page_Mahasiswa  Log in/input_Pengesahan KRS_username'
+
+2022-10-04 12:37:04 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Page_Mahasiswa  Log in/input_Pengesahan KRS_password"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/input_Pengesahan KRS_password' is clickable
+
+2022-10-04 12:37:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:37:04 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/input_Pengesahan KRS_password' is clickable
+
+2022-10-04 12:37:04 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Mahasiswa  Log in/input_Pengesahan KRS_password"), "iSEWCsnSE73PQQFqiZnV/Q=="): Text ****** has been set on object 'Object Repository/Page_Mahasiswa  Log in/input_Pengesahan KRS_password'
+
+2022-10-04 12:37:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Mahasiswa  Log in/input_Pengesahan KRS_password'
+
+2022-10-04 12:37:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mahasiswa  Log in/button_Sign In")): Object: 'Object Repository/Page_Mahasiswa  Log in/button_Sign In' is clicked on
+
+2022-10-04 12:37:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mahasiswa  Log in/button_Sign In' is clicked on
+
+2022-10-04 12:37:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Mahasiswa  Log in/div_Alert                    login gagal In_15140f"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/div_Alert                    login gagal In_15140f' is present
+
+2022-10-04 12:37:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:37:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/div_Alert                    login gagal In_15140f' is present
+
+2022-10-04 12:37:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Mahasiswa  Log in/h4_Alert"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/h4_Alert' is present
+
+2022-10-04 12:37:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:37:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/h4_Alert' is present
+
+2022-10-04 12:37:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Mahasiswa  Log in/p_Incorrect Login"), 0): Object 'Object Repository/Page_Mahasiswa  Log in/p_Incorrect Login' is present
+
+2022-10-04 12:37:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-04 12:37:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mahasiswa  Log in/p_Incorrect Login' is present
+
+2022-10-04 12:37:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-10-04 12:37:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-10-04 12:33:25 - [TEST_SUITE][PASSED] - Daily Test: Test Cases/student filled wrong password]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

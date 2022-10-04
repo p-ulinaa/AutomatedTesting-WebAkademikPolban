@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Toggle navigation_user-image</name>
+   <tag></tag>
+   <elementGuidId>15389f4f-6082-41f6-a0ca-da41745d5d3d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>img.user-image</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[@alt='User Image']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>7d192cd9-933d-4923-8e70-aadd670450fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://akademik.polban.ac.id/fotomhsrekap/181524030.jpg</value>
+      <webElementGuid>226904f1-5090-4b4b-b653-072714ffc2db</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>user-image</value>
+      <webElementGuid>d844d672-dd42-4832-a7a4-9d2214637ca8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>User Image</value>
+      <webElementGuid>8cc0f155-1251-4eda-ac59-3a2be17014d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;notranslate&quot;]/body[@class=&quot;skin-yellow&quot;]/div[@class=&quot;wrapper&quot;]/header[@class=&quot;main-header&quot;]/nav[@class=&quot;navbar navbar-static-top&quot;]/div[@class=&quot;navbar-custom-menu&quot;]/ul[@class=&quot;nav navbar-nav&quot;]/li[@class=&quot;dropdown user user-menu open&quot;]/a[@class=&quot;dropdown-toggle&quot;]/img[@class=&quot;user-image&quot;]</value>
+      <webElementGuid>39460f71-ef3d-4f16-899b-5cb496f7aac0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='User Image']</value>
+      <webElementGuid>5e85cffe-af52-471d-9694-f2eea472c3f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/a/img</value>
+      <webElementGuid>f3055200-a274-4a99-939c-d8b9e25437e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'https://akademik.polban.ac.id/fotomhsrekap/181524030.jpg' and @alt = 'User Image']</value>
+      <webElementGuid>8bd404f6-dade-4cb0-baa6-b68bb702e670</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

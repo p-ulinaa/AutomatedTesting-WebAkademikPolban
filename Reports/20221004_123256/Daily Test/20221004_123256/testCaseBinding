@@ -1,0 +1,6 @@
+{"testCaseName":"Test Cases/student could login","testCaseId":"Test Cases/student could login","iterationVariableName":""}
+{"testCaseName":"Test Cases/student could not reset password because filled a not valid email","testCaseId":"Test Cases/student could not reset password because filled a not valid email","iterationVariableName":""}
+{"testCaseName":"Test Cases/student could not reset password because the emails field is not filled","testCaseId":"Test Cases/student could not reset password because the emails field is not filled","iterationVariableName":""}
+{"testCaseName":"Test Cases/student could reset password","testCaseId":"Test Cases/student could reset password","iterationVariableName":""}
+{"testCaseName":"Test Cases/student filled wrong username","testCaseId":"Test Cases/student filled wrong username","iterationVariableName":""}
+{"testCaseName":"Test Cases/student filled wrong password","testCaseId":"Test Cases/student filled wrong password","iterationVariableName":""}

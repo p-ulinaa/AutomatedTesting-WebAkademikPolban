@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_The Email Address field must contain a va_4349c4</name>
+   <tag></tag>
+   <elementGuidId>18e6960a-de30-4de5-bd82-4c014c265607</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#infoMessage > p</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='infoMessage']/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>0f9967c9-41c4-4e48-9cbd-da8eb7ab8980</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>The Email Address field must contain a valid email address.</value>
+      <webElementGuid>160383b9-2cd9-4af1-845d-81c77ae2b21a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;infoMessage&quot;)/p[1]</value>
+      <webElementGuid>d3f9e78d-7628-464f-b912-a354c7a95864</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='infoMessage']/p</value>
+      <webElementGuid>dbd3bcf5-0ae7-40b0-b8b5-e89fd47ae570</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot Password'])[1]/following::p[2]</value>
+      <webElementGuid>cd022837-b9ee-49a8-b281-2ed52fc029d3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email:'])[1]/preceding::p[1]</value>
+      <webElementGuid>94e1bf6d-649e-4a28-8fad-87fa954eca0c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'infoMessage', '&quot;', ')/p[1]')])[1]/preceding::p[3]</value>
+      <webElementGuid>0123700c-7099-4992-8d05-d5346b9cc798</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='The Email Address field must contain a valid email address.']/parent::*</value>
+      <webElementGuid>a8dcccfe-9197-41d1-b7c8-114fded3dd60</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/p</value>
+      <webElementGuid>ced10092-8519-44ff-a5b1-7f583c57643d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'The Email Address field must contain a valid email address.' or . = 'The Email Address field must contain a valid email address.')]</value>
+      <webElementGuid>f4a53f59-d5b2-46da-b965-ba9b8efbea53</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

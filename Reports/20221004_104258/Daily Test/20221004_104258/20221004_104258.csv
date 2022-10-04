@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Daily Test,Chrome 105.0.0.0,,,2022-10-04 10:43:09,2022-10-04 10:43:20,11.094s,PASSED
+,,,,,,,
+Test Cases/Login Berhasil,Chrome 105.0.0.0,,,2022-10-04 10:43:09,2022-10-04 10:43:15,5.735s,PASSED
+"openBrowser("""")",Chrome 105.0.0.0,,,2022-10-04 10:43:10,2022-10-04 10:43:12,2.537s,PASSED
+"navigateToUrl(""https://akademik.polban.ac.id/"")",Chrome 105.0.0.0,,,2022-10-04 10:43:12,2022-10-04 10:43:13,0.576s,PASSED
+"setText(findTestObject(""Object Repository/Page_Mahasiswa  Log in/input_Pengesahan KRS_username""), ""181524030"")",Chrome 105.0.0.0,,,2022-10-04 10:43:13,2022-10-04 10:43:14,0.797s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Mahasiswa  Log in/input_Pengesahan KRS_password""), ""U+lnIAN/gKSlHcaxcMBafg=="")",Chrome 105.0.0.0,,,2022-10-04 10:43:14,2022-10-04 10:43:14,0.512s,PASSED
+"click(findTestObject(""Object Repository/Page_Mahasiswa  Log in/button_Sign In""))",Chrome 105.0.0.0,,,2022-10-04 10:43:14,2022-10-04 10:43:15,0.847s,PASSED
+,,,,,,,
+Test Cases/Login Gagal-Salah Password,Chrome 105.0.0.0,,,2022-10-04 10:43:15,2022-10-04 10:43:20,5.015s,PASSED
+"openBrowser("""")",Chrome 105.0.0.0,,,2022-10-04 10:43:16,2022-10-04 10:43:17,1.813s,PASSED
+"navigateToUrl(""https://akademik.polban.ac.id/"")",Chrome 105.0.0.0,,,2022-10-04 10:43:17,2022-10-04 10:43:18,0.806s,PASSED
+"setText(findTestObject(""Object Repository/Page_Mahasiswa  Log in/input_Pengesahan KRS_username""), ""181524030"")",Chrome 105.0.0.0,,,2022-10-04 10:43:18,2022-10-04 10:43:19,0.700s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Mahasiswa  Log in/input_Pengesahan KRS_password""), ""UQAk/P5qvDRit/KSf3NQ5zAwJEMaSgAf"")",Chrome 105.0.0.0,,,2022-10-04 10:43:19,2022-10-04 10:43:19,0.440s,PASSED
+"click(findTestObject(""Object Repository/Page_Mahasiswa  Log in/button_Sign In""))",Chrome 105.0.0.0,,,2022-10-04 10:43:19,2022-10-04 10:43:20,0.740s,PASSED

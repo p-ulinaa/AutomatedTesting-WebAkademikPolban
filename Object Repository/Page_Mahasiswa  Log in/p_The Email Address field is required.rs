@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_The Email Address field is required</name>
+   <tag></tag>
+   <elementGuidId>964871a1-77e9-49ce-bbf6-812c204b51c6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#infoMessage > p</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='infoMessage']/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>6f19241c-f1b2-4d37-8903-e7a21b972a20</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>The Email Address field is required.</value>
+      <webElementGuid>34df5a48-0331-4492-a852-238b382b5ba6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;infoMessage&quot;)/p[1]</value>
+      <webElementGuid>b9bb2327-dc88-410c-9f46-9e9b16e0b548</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='infoMessage']/p</value>
+      <webElementGuid>a2460d48-3588-4131-adbe-3bd301bf0479</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot Password'])[1]/following::p[2]</value>
+      <webElementGuid>580453e4-36db-4b73-b44a-404a4e634b5f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email:'])[1]/preceding::p[1]</value>
+      <webElementGuid>b2cb5dff-573a-4365-be55-f9c264a34994</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'infoMessage', '&quot;', ')/p[1]')])[1]/preceding::p[3]</value>
+      <webElementGuid>d0faab13-434e-46c3-8311-66b0715b353f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='The Email Address field is required.']/parent::*</value>
+      <webElementGuid>cb954f64-5b46-4b89-8e10-156571a3f462</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/p</value>
+      <webElementGuid>6a63ba79-2ec5-47fd-afb7-1104fff4d304</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'The Email Address field is required.' or . = 'The Email Address field is required.')]</value>
+      <webElementGuid>fbbdb5ea-03f0-4337-9ee1-4b214cea6021</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
